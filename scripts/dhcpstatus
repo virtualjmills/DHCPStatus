@@ -22,7 +22,7 @@
 
 use strict;
 
-use lib "../libraries/dhcpstatus";
+use lib "../libraries/dhcpstatus/dhcpstatus";
 my $dhcpstatus_dir = $INC[0];
 
 use dhcpstatus::dhcpstatus_cmd;
