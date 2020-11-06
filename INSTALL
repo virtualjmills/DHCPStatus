@@ -25,6 +25,19 @@ then install the script(s) for the user interface(s) that you wish to use to
 call DHCPStatus.
 
 
+Running Locally.
+================
+
+Extract contents of DHCPStatus "runlocal" branch.
+
+Install required Perl library:
+   sudo -- apt install libperl4-corelibs-perl;
+
+cd scripts/;
+
+./dhcpstatus;
+
+
 Installing the library of modules.
 ==================================
 For the purposes of this exercise, we're going to install them in 
