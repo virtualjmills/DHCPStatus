@@ -1,4 +1,4 @@
-#!/usr/local/bin/perl -w
+#!/usr/bin/perl -w -I ../libraries/
 
 #------------------------------------------------------------------------
 # Copyright (C) 2000 Michael Grubits.
@@ -22,7 +22,7 @@
 
 use strict;
 
-use lib "/usr/local/dhcpstatus";
+use lib "../libraries/dhcpstatus";
 my $dhcpstatus_dir = $INC[0];
 
 use dhcpstatus::dhcpstatus_cmd;
