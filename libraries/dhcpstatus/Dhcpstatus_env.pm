@@ -29,7 +29,8 @@ sub new {
    my $env = {};
    shift;					# move past package name.
    my $dir = shift;				# the caller tells us where the
-   my $ini_file = $dir."/dhcpstatus.ini";	# .ini file is located.
+   #my $ini_file = $dir."/dhcpstatus.ini";	# .ini file is located.
+   my $ini_file = "../libraries/dhcpstatus.ini";	# .ini file is located.
 
    open(INI, $ini_file);			# read the .ini file, and
    my @ini = <INI>;				# put the info into our env
